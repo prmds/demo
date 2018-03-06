@@ -11,3 +11,8 @@ libraryDependencies ++= Seq(
   cache,
   javaWs
 )
+
+enablePlugins(DebianPlugin)
+maintainer := "premdas.mr@mobme.in"
+packageSummary := "sample"
+packageDescription := "package" 
